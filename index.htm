@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="sv">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>JavaScript-exempel</title>
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="events.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<header>
+		<h1>JavaScript-exempel</h1>
+		<h3>Referenser till HTML-element på olika sätt (baserat på exempel js5-ex1-1 i F5)</h3>
+	</header>
+	<main>
+		<h2>Länder i Norden</h2>
+		<p>Klicka på en flagga:</p>
+		<ul id="countries">
+			<li data-capital="Köpenhamn" class="scandinavia">
+				<img src="pics/denmark.png" alt="Danmarks flagga">
+				<span>Danmark</span>
+			</li>
+			<li data-capital="Helsingfors">
+				<img src="pics/finland.png" alt="Finlands flagga">
+				<span>Finland</span>
+			</li>
+			<li data-capital="Reykjavik">
+				<img src="pics/iceland.png" alt="Islands flagga">
+				<span>Island</span>
+			</li>
+			<li data-capital="Oslo" class="scandinavia">
+				<img src="pics/norway.png" alt="Norges flagga">
+				<span>Norge</span>
+			</li>
+			<li data-capital="Stockholm" class="scandinavia">
+				<img src="pics/sweden.png" alt="Sveriges flagga">
+				<span>Sverige</span>
+			</li>
+		</ul>
+		<button type="button" id="scandBtn">Länder i Skandinavien</button>
+		<hr>
+		<div id="result"></div> <!-- Fylls i av JS-programmet -->
+	</main>
+	<footer>
+		<p>1ME322 Webbteknik 2, lektion 5 - Rune Körnefors</p>
+	</footer>
+</body>
+</html>
